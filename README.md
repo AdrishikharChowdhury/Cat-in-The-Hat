@@ -46,18 +46,6 @@ Click "Generate" to fetch a cat image and a fun fact.
     - [Cat Fact Ninja](https://catfact.ninja/) for random cat facts
 
 
-## Color Theme
-
-Inspired by Dr. Seuss’s "The Cat in the Hat":
-
-
-| Element | Color | Hex Code |
-| :-- | :-- | :-- |
-| Hat (stripes) | Red/White | \#E41B17 / \#FFFFFF |
-| Bow tie | Red | \#E41B17 |
-| Fur | White | \#FFFFFF |
-| Body \& Tail | Black | \#000000 |
-| Background (cover) | Light Blue | \#6EC6F1 |
 
 ## Usage
 
