@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat in The Hat</title>
+    <script src="./assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobilestyle.css">
+</head>
+<body>
+    <header>
+        <p class="heading">Cat in The Hat</p>
+        <p class="subheading">The cat image generator you never thought you needed</p>
+    </header>
+    <main>
+        <div id="cat-photo"></div>
+        <div class="dropdowns">
+            <select name="" id="breed-list" class="bl">
+                <option value="None">Random Breed</option>
+            </select>
+        </div>
+        <div class="facts"></div>
+        <button id="generate">Generate a Purr-fect Shot</button>
+        <div class="cta">
+            <button id="copy"><i class="fa-solid fa-clipboard"></i></button>
+            <button id="download"><i class="fa-solid fa-download"></i></button>
+            <button id="share"><i class="fa-solid fa-share"></i></button>
+            <canvas id="cat-canvas"></canvas>
+        </div>
+    </main>
+</body>
+</html>
