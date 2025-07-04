@@ -149,6 +149,6 @@ shareBtn.addEventListener("click", async (e) => {
 
 if (window.location.hostname === "adrishikharchowdhury.github.io") {
     const baseTag = document.createElement("base");
-    baseTag.href = "/Who Let The Dogs Out/";
+    baseTag.href = "/Cat in The Hat/";
     document.head.appendChild(baseTag);
   }
