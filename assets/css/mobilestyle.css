@@ -13,7 +13,6 @@
         width: 80%;
         max-width: 95vw;
         min-width: 160px;
-        aspect-ratio: 1 / 1;
     }
 
     .dropdowns, .cta {
@@ -22,8 +21,8 @@
         width: 80%;
     }
 
-    select, #generate, #copy, #download, #share {
-        width: 60%;
+    select, #generate {
+        width: 80%;
         font-size: 1rem;
         margin-bottom: 0.5rem;
     }
@@ -37,10 +36,6 @@
     }
     .subheading {
         font-size: 1.1rem;
-    }
-
-    #copy, #download, #share{
-        width: 10%;
     }
 }
 
@@ -73,7 +68,7 @@
         width: 80%;
         flex-direction: row;
     }
-    select, #generate, #copy, #download, #share {
+    select{
         width: 80%;
         max-width: 99vw;
         min-width: 80px;
@@ -103,13 +98,6 @@
 
 /* Extra Small Devices (≤ 400px) */
 @media (max-width: 400px) {
-     #copy, #download, #share {
-        width: 15%;
-        max-width: 98vw;
-        min-width: 60px;
-        font-size: 0.92rem;
-    }
-
     .facts {
         font-size: 0.8rem;
     }
@@ -133,7 +121,6 @@
     }
     #cat-photo {
         width: 80%;
-        height: 50%;
         border-radius: 2rem;
         background-size: contain;
     }
@@ -144,22 +131,15 @@
         height: 8%;
     }
     select {
-        width: 40%;
-        height: 100%;
+        width: 60%;
         font-size: 1.2rem;
         padding-left: 2rem;
     }
     #generate {
         width: 60%;
-        height: 8%;
         font-size: 1.2rem;
     }
-    #copy, #download, #share {
-        width: 8%;
-        height: 100%;
-        border-radius: 50%;
-        font-size: 1.2rem;
-    }
+    
     .facts {
         font-size: 0.9rem;
         padding: 1rem 2rem;

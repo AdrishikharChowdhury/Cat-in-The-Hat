@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -13,10 +14,14 @@
 }
 
 body{
+    overflow-x: hidden;
     background-color: var(--bgcolor);
     display: flex;
-    height: 100vh;
-    width: 100%;
+    padding: 2rem;
+    min-width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -45,7 +50,7 @@ header{
 }
 
 main{
-    height: 85%;
+    height: max-content;
     background-color: var(--section-color);
     width: 30%;
     display: flex;
@@ -54,12 +59,13 @@ main{
     align-items: center;
     border-radius: 2rem;
     box-shadow: 0.4rem 0.8rem 1.2rem 0.5rem rgba(0, 0, 0, 0.25);
-    padding: 1rem;
+    padding: 2rem;
+    gap: 2rem;
 }
 
 #cat-photo{
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 25rem;
     background-color: var(--fact-color);
     border: var(--img-holder) 0.4rem solid;
     display: flex;
@@ -86,8 +92,8 @@ main{
 }
 
 select{
-    width: 40%;
-    height: 100%;
+    width: 90%;
+    height: 5rem;
     background-color: var(--btn-color);
     color: white;
     font-size: 1.2rem;
@@ -116,8 +122,8 @@ select{
 }
 
 #generate{
-    width: 60%;
-    height: 8%;
+    width: 90%;
+    height: 6rem;
     background-color: var(--btn-color);
     color: white;
     font-size: 1.2rem;
@@ -130,8 +136,8 @@ canvas,#copy{
 }
 
 #copy,#download,#share{
-    width: 13%;
-    height: 100%;
+    width: 18%;
+    height: 4rem;
     background-color: var(--btn-color);
     color: white;
     font-size: 1.2rem;
